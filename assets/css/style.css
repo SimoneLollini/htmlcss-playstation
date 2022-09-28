@@ -1,3 +1,4 @@
+/* #region debug */
 .debug header {
     height: 80px;
 }
@@ -13,13 +14,96 @@
     border: 1px solid;
 }
 
-[class^="col"],
-[class^="col"],
-[class^="col"],
-[class^="col"] {
+.debug [class^="col"],
+.debug [class^="col"],
+.debug [class^="col"],
+.debug [class^="col"] {
     height: 80px;
 }
 
 .debug .play_5_top [class^="col"] {
     height: 300px;
 }
+
+/* #endregion debug */
+
+/* #region common */
+.title {
+    font-size: var(--title_h2);
+    letter-spacing: -1%;
+}
+
+.sub_title {
+    font-size: var(--sub_title);
+    letter-spacing: -3%;
+}
+
+p,
+.p {
+    font-size: var(--play-p);
+    letter-spacing: -4%;
+}
+
+.ps_darker {
+    background-color: var(--ps_darker);
+}
+
+.ps_dark_soft {
+    background-color: var(--ps_dark_soft);
+}
+
+/* #endregion common */
+
+/* #region utility */
+:root {
+    --ps_darker: #000000;
+    --ps_dark: #1F1F1F;
+    --ps_dark_soft: #363636;
+    --ps_lighter: #FFFFFF;
+    --ps_light: #BEBCBB;
+    --ps_primary_darker: #161C3B;
+    --ps_primary_dark: #00439C;
+    --ps_primary_light: #2D64E6;
+    --ps_primary_lighter: #0273CE;
+    --ps_warning: #CD3D0F;
+    --title_h2: 24px;
+    --sub_title: 13px;
+    --play-p: 11px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* #endregion common */
+
+/* #region header */
+.header_top {
+    padding: 0.5rem;
+}
+
+.header_top img {
+    width: 50px;
+}
+
+nav ul img {
+    width: 10px;
+}
+
+/* #endregion header */
+
+
+
+
+
+
+
+
+
+/*************************************************************************
+**************************************************************************
+**************************************************************************
+media query - media query - media query -media query - media query - media
+*************************************************************************
+**************************************************************************
+**************************************************************************/
