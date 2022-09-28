@@ -115,13 +115,12 @@ nav {
 }
 
 .jumbotron_top img {
-    width: 90%;
-    margin-top: 90%;
-    margin-bottom: 5%;
+    margin-top: 20%;
+    width: 20%;
 }
 
 .description {
-    padding-bottom: 3%;
+    padding: 5% 0;
 }
 
 /* #endregion jumbotron */
@@ -145,3 +144,9 @@ media query - media query - media query -media query - media query - media
 *************************************************************************
 **************************************************************************
 **************************************************************************/
+
+@media screen and (min-width:1200px) {
+    .description {
+        width: 25%;
+    }
+}
