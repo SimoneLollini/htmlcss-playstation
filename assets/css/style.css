@@ -1,0 +1,25 @@
+.debug header {
+    height: 80px;
+}
+
+.debug section {
+    background-color: rgb(243, 0, 0);
+    border: 3px solid;
+    height: 400px;
+}
+
+.debug [class^="col"] {
+    background-color: rgb(68, 250, 68);
+    border: 1px solid;
+}
+
+[class^="col"],
+[class^="col"],
+[class^="col"],
+[class^="col"] {
+    height: 80px;
+}
+
+.debug .play_5_top [class^="col"] {
+    height: 300px;
+}
