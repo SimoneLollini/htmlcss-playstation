@@ -30,18 +30,15 @@
 /* #region common */
 .title {
     font-size: var(--title_h2);
-    letter-spacing: -1%;
 }
 
 .sub_title {
     font-size: var(--sub_title);
-    letter-spacing: -3%;
 }
 
 p,
 .p {
     font-size: var(--play-p);
-    letter-spacing: -4%;
 }
 
 .ps_darker {
@@ -56,8 +53,40 @@ p,
     background-color: var(--ps_danger);
 }
 
+.ps_light {
+    background-color: var(--ps_light);
+}
+
+.text_primary_lighter {
+    color: var(--ps_primary_lighter);
+}
+
+.ps_primary_light {
+    background-color: var(--ps_primary_light);
+}
+
+.ps_dark {
+    background-color: var(--ps_dark);
+}
+
 .font {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_soft_light {
+    color: var(--soft-light);
+}
+
+.soft_light {
+    background-color: var(--soft-light);
+}
+
+.primary_soft {
+    border-bottom: 1px solid var(--ps_primary_active);
+}
+
+.ps_lighter_shadow {
+    background-color: var(--ps_lighter_shadow);
 }
 
 /* #endregion common */
@@ -68,11 +97,14 @@ p,
     --ps_dark: #1F1F1F;
     --ps_dark_soft: #363636;
     --ps_lighter: #FFFFFF;
+    --ps_lighter_shadow: #D9DADC;
     --ps_light: #BEBCBB;
+    --soft-light: #727272;
     --ps_primary_darker: #161C3B;
     --ps_primary_dark: #00439C;
     --ps_primary_light: #2D64E6;
     --ps_primary_lighter: #0273CE;
+    --ps_primary_active: #1F83D4;
     --ps_danger: #CD3D0F;
     --title_h2: 24px;
     --sub_title: 13px;
@@ -111,7 +143,7 @@ nav {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-position: center;
 }
 
 .jumbotron_top img {
@@ -125,6 +157,41 @@ nav {
 
 /* #endregion jumbotron */
 
+/* #region play_5 */
+
+
+.play_5_top img {
+    width: 90%;
+}
+
+.play_5_bot img {
+    width: 60%;
+}
+
+/* #endregion play_5 */
+
+/* #region takes two */
+
+.takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.takes_two img {
+    margin-top: 15%;
+    width: 20%;
+}
+
+/* #endregion takes two */
+
+/* #region Play_plus */
+
+
+
+/* #endregion Play_plus */
 
 /* #endregion MAIN */
 
