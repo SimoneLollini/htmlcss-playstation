@@ -21,7 +21,7 @@
     height: 80px;
 }
 
-.debug .play_5_top [class^="col"] {
+.debug .ps_5_top [class^="col"] {
     height: 300px;
 }
 
@@ -87,6 +87,10 @@ p,
 
 .ps_lighter_shadow {
     background-color: var(--ps_lighter_shadow);
+}
+
+.ps_primary_darker {
+    background-color: var(--ps_primary_darker);
 }
 
 /* #endregion common */
@@ -157,18 +161,18 @@ nav {
 
 /* #endregion jumbotron */
 
-/* #region play_5 */
+/* #region ps_5 */
 
 
-.play_5_top img {
+.ps_5_top img {
     width: 90%;
 }
 
-.play_5_bot img {
+.ps_5_bot img {
     width: 60%;
 }
 
-/* #endregion play_5 */
+/* #endregion ps_5 */
 
 /* #region takes two */
 
@@ -187,11 +191,17 @@ nav {
 
 /* #endregion takes two */
 
-/* #region Play_plus */
+/* #region ps_plus */
 
 
 
-/* #endregion Play_plus */
+/* #endregion ps_plus */
+
+/* #region ps_store */
+
+
+
+/* #endregion ps_store */
 
 /* #endregion MAIN */
 
