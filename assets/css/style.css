@@ -93,6 +93,10 @@ p,
     background-color: var(--ps_primary_darker);
 }
 
+.ps_primary_dark {
+    background-color: var(--ps_primary_dark);
+}
+
 /* #endregion common */
 
 /* #region utility */
@@ -205,6 +209,22 @@ nav {
 
 /* #endregion MAIN */
 
+/* #region footer */
+footer a {
+    color: var(--ps_lighter);
+}
+
+.reference_links a {
+    text-decoration: none;
+    font-size: var(--play-p);
+    display: block;
+}
+
+footer a:hover {
+    color: var(--ps_light);
+}
+
+/* #endregion footer */
 
 
 
