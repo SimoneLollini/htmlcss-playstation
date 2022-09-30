@@ -126,6 +126,14 @@ img {
 /* #endregion common */
 
 /* #region HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
 .header_top {
     padding: 0.5rem;
 }
@@ -147,6 +155,10 @@ nav {
 /* #region MAIN */
 
 /* #region jumbotron */
+.jumbotron {
+    margin-top: 100px;
+}
+
 .jumbotron_top {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -221,7 +233,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--ps_light);
+    color: var(--ps_lighter);
 }
 
 /* #endregion footer */
