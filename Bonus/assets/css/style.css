@@ -1,0 +1,261 @@
+/* #region debug */
+.debug header {
+    height: 80px;
+}
+
+.debug section {
+    background-color: rgb(243, 0, 0);
+    border: 3px solid;
+    height: 400px;
+}
+
+.debug [class^="col"] {
+    background-color: rgb(68, 250, 68);
+    border: 1px solid;
+}
+
+.debug [class^="col"],
+.debug [class^="col"],
+.debug [class^="col"],
+.debug [class^="col"] {
+    height: 80px;
+}
+
+.debug .ps_5_top [class^="col"] {
+    height: 300px;
+}
+
+/* #endregion debug */
+
+/* #region common */
+.title {
+    font-size: var(--title_h2);
+}
+
+.sub_title {
+    font-size: var(--sub_title);
+}
+
+p,
+.p {
+    font-size: var(--play-p);
+}
+
+.ps_darker {
+    background-color: var(--ps_darker);
+}
+
+.ps_dark_soft {
+    background-color: var(--ps_dark_soft);
+}
+
+.ps_danger {
+    background-color: var(--ps_danger);
+}
+
+.ps_light {
+    background-color: var(--ps_light);
+}
+
+.text_primary_lighter {
+    color: var(--ps_primary_lighter);
+}
+
+.ps_primary_light {
+    background-color: var(--ps_primary_light);
+}
+
+.ps_dark {
+    background-color: var(--ps_dark);
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_soft_light {
+    color: var(--soft-light);
+}
+
+.soft_light {
+    background-color: var(--soft-light);
+}
+
+.primary_soft {
+    border-bottom: 1px solid var(--ps_primary_active);
+}
+
+.ps_lighter_shadow {
+    background-color: var(--ps_lighter_shadow);
+}
+
+.ps_primary_darker {
+    background-color: var(--ps_primary_darker);
+}
+
+.ps_primary_dark {
+    background-color: var(--ps_primary_dark);
+}
+
+/* #endregion common */
+
+/* #region utility */
+:root {
+    --ps_darker: #000000;
+    --ps_dark: #1F1F1F;
+    --ps_dark_soft: #363636;
+    --ps_lighter: #FFFFFF;
+    --ps_lighter_shadow: #D9DADC;
+    --ps_light: #BEBCBB;
+    --soft-light: #727272;
+    --ps_primary_darker: #161C3B;
+    --ps_primary_dark: #00439C;
+    --ps_primary_light: #2D64E6;
+    --ps_primary_lighter: #0273CE;
+    --ps_primary_active: #1F83D4;
+    --ps_danger: #CD3D0F;
+    --title_h2: 24px;
+    --sub_title: 13px;
+    --play-p: 11px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* #endregion common */
+
+/* #region HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.header_top {
+    padding: 0.5rem;
+}
+
+.header_top img {
+    width: 50px;
+}
+
+nav ul img {
+    width: 10px;
+}
+
+nav {
+    color: var(--ps_darker);
+}
+
+/* #endregion HEADER */
+
+/* #region MAIN */
+
+/* #region jumbotron */
+.jumbotron {
+    margin-top: 100px;
+}
+
+.jumbotron_top {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron_top img {
+    margin-top: 20%;
+    width: 20%;
+}
+
+.description {
+    padding: 5% 0;
+}
+
+/* #endregion jumbotron */
+
+/* #region ps_5 */
+
+
+.ps_5_top img {
+    width: 90%;
+}
+
+.ps_5_bot img {
+    width: 60%;
+}
+
+/* #endregion ps_5 */
+
+/* #region takes two */
+
+.takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.takes_two img {
+    margin-top: 15%;
+    width: 20%;
+}
+
+/* #endregion takes two */
+
+/* #region ps_plus */
+
+
+
+/* #endregion ps_plus */
+
+/* #region ps_store */
+
+
+
+/* #endregion ps_store */
+
+/* #endregion MAIN */
+
+/* #region footer */
+footer a {
+    color: var(--ps_lighter);
+}
+
+.reference_links a {
+    text-decoration: none;
+    font-size: var(--play-p);
+    display: block;
+}
+
+footer a:hover {
+    color: var(--ps_lighter);
+}
+
+/* #endregion footer */
+
+
+
+
+
+
+
+
+
+/*************************************************************************
+**************************************************************************
+**************************************************************************
+media query - media query - media query -media query - media query - media
+*************************************************************************
+**************************************************************************
+**************************************************************************/
+
+@media screen and (min-width:1200px) {
+    .description {
+        width: 25%;
+    }
+}
