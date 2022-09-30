@@ -97,6 +97,10 @@ p,
     background-color: var(--ps_primary_dark);
 }
 
+.btn {
+    border: none;
+}
+
 /* #endregion common */
 
 /* #region utility */
@@ -232,13 +236,38 @@ footer a {
     display: block;
 }
 
-footer a:hover {
-    color: var(--ps_lighter);
-}
+
 
 /* #endregion footer */
 
 
+/* #region hover */
+.btn:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+}
+
+.btn.ps_danger:hover {
+    color: var(--bs-btn-hover-color);
+    box-shadow: 0 0 0 3px var(--ps_danger);
+    background-color: #CD3D0F;
+}
+
+.btn.btn-dark:hover {
+    box-shadow: 0 0 0 3px black;
+}
+
+.btn.ps_primary_light:hover {
+    box-shadow: 0 0 0 3px var(--ps_primary_light);
+}
+
+
+
+footer a:hover {
+    color: var(--ps_lighter);
+}
+
+/* #endregion hover */
 
 
 
