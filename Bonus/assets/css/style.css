@@ -299,6 +299,11 @@ header nav .dropdown-menu.show {
     --bs-dropdown-spacer: 0;
     border-width: 0;
     border-radius: 0;
+    justify-content: center;
+}
+
+.dropdown-menu.show img {
+    width: 100px;
 }
 
 /*************************************************************************
