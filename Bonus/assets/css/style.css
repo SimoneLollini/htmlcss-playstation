@@ -269,10 +269,23 @@ footer a:hover {
 
 /* #endregion hover */
 
+a.nav-link::after {
+    display: block;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background-image: url(../img/chevron-down-solid.svg);
+    background-repeat: no-repeat;
+}
 
-
-
-
+a.nav-link.show::after {
+    display: block;
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url(../img/chevron-down-solid-hover.svg);
+    background-repeat: no-repeat;
+}
 
 
 /*************************************************************************
