@@ -167,7 +167,7 @@ nav {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .jumbotron_top img {
@@ -200,7 +200,7 @@ nav {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 
 }
 
